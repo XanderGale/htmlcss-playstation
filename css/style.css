@@ -1,0 +1,16 @@
+/* Common */
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header{
+    font-family: Helvetica, arial, sans-serif;
+}
+.preheader{
+    background-color: black;
+}
+#sony-logo{
+    width: 5%;
+    margin: 10px;
+}
