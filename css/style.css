@@ -26,13 +26,15 @@ ul li i{
 
 /* Header */
 header{
+    width: 100%;
     font-family: Helvetica, arial, sans-serif;
+    position: fixed;
 }
 .preheader{
     background-color: black;
 }
 #sony-logo{
-    width: 7%;
+    width: 70px;
     margin: 10px;
 }
 
@@ -56,4 +58,17 @@ nav .col.center{
 }
 nav .col.right .element-end{
     margin-left: auto;
+}
+.navlist{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.last-element{
+    margin-left: auto;
+}
+.burger-menu{
+    padding-top: 3px;
+    font-size: 40px;
 }
