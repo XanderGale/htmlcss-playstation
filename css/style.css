@@ -22,6 +22,12 @@ ul li i{
     padding: 3px;
 }
 
+/* Backgrounds */
+.bg-darkgray{
+    background-color: #1f1f1f;
+    color: white;
+}
+
 /* Buttons */
 .red{
     background-color: red;
@@ -183,4 +189,13 @@ main{
     opacity: 1;
 
     border-bottom: 2px solid #117bd1;
+}
+
+/* Jumbo 2 */
+.store_title{
+    margin: 30px auto;
+}
+.ms_item h5{
+    font-size: 1.05rem;
+    margin: 10px 5px;
 }
