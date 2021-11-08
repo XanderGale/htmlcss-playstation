@@ -27,6 +27,9 @@ ul li i{
     background-color: #1f1f1f;
     color: white;
 }
+.bg-lightgray{
+    background-color: #bebcbb;
+}
 
 /* Buttons */
 .red{
@@ -36,6 +39,10 @@ ul li i{
 .blue{
     background-color: #117bd1;
     color: white;
+}
+.gray{
+    background-color: #d9dadc;
+    color: #117bd1;
 }
 
 /* Header */
@@ -142,6 +149,7 @@ main{
     margin: 30px auto;
 }
 .ms_item:hover{
+    cursor: pointer;
     border: 3px solid #2f8cd7;
     border-radius: 20px;
 }
@@ -167,6 +175,11 @@ main{
     color: #117bd1;
 }
 .ms_console_title h1{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.ms_console_title h2{
+    font-size: 2.5rem;
     margin-bottom: 30px;
 }
 .ms_console_title h4{
@@ -178,13 +191,22 @@ main{
     justify-content: center;
     align-items: flex-start;
 }
+.ms_console_products{
+    margin-bottom: 30px;
+}
 .ms_product{
     padding: 30px;
     opacity: 0.5;
 
     border-bottom: 2px solid transparent;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 .ms_product:hover{
+    cursor: pointer;
     padding: 30px;
     opacity: 1;
 
@@ -198,4 +220,36 @@ main{
 .ms_item h5{
     font-size: 1.05rem;
     margin: 10px 5px;
+}
+
+/* Playstation 4 */
+.ms_ps4_products{
+    margin: 30px auto;
+}
+.ms_ps4_product_info{
+    margin-bottom: 2rem;
+}
+.ms_ps4_product_info h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.ms_ps4_product_info h5{
+    color: #7a7a7a;
+
+    margin-bottom: 2rem;
+}
+
+/* Ps Plus */
+#ps-plus-info-banner{
+    height: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+#ps-plus-logo-banner{
+    width: 50%;
+
+    margin-bottom: 30px;
 }
