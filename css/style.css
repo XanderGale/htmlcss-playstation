@@ -110,8 +110,19 @@ nav .col.right .element-end{
     margin-left: auto;
 }
 .burger-menu{
-    padding-top: 3px;
+    height: 100%;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.burger-menu i{
     font-size: 40px;
+}
+.burger-menu i:hover{
+    cursor: pointer;
+    color: #117bd1;
 }
 
 /* Main */
