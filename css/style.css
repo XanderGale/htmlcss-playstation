@@ -134,7 +134,7 @@ main{
     bottom: 5%;
     left: 8%;
 
-    width: 25%;
+    width: 100%;
 }
 .ms_jumbo_info img{
     width: 50%;
@@ -265,4 +265,64 @@ main{
 }
 .ps-store-single-product{
     margin-bottom: 1rem;
+}
+.ps-store-single-product:hover{
+    cursor: pointer;
+}
+
+/* Socials */
+.social-menu{
+    margin: 30px auto;
+}
+.social-container{
+    margin: auto;
+}
+.social-icon{
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Edits */
+
+@media screen and (min-width: 576px ) {
+    .social-container{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px ) {
+    .ms_jumbo_info{
+        width: 25%;
+    }
+    .social-container{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 992px ) {
+    .social-container{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1400px ) {
+    .social-container{
+        width: 60%;
+    }
 }
