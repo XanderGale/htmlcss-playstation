@@ -29,6 +29,11 @@ ul li i{
 }
 .bg-lightgray{
     background-color: #bebcbb;
+    color: black;
+}
+.bg-blue{
+    background-color: #161c3b;
+    color: white;
 }
 
 /* Buttons */
@@ -42,7 +47,7 @@ ul li i{
 }
 .gray{
     background-color: #d9dadc;
-    color: #117bd1;
+    color: #161c3b;
 }
 
 /* Header */
@@ -162,11 +167,11 @@ main{
 }
 
 /* Playstation 5 */
-.ms_console_title{
+.ms_section_title{
     margin: 50px auto;
     text-align: center;
 }
-.ms_console_title h5{
+.ms_section_title h5{
     text-transform: uppercase;
     font-size: 1rem;
 
@@ -174,15 +179,15 @@ main{
 
     color: #117bd1;
 }
-.ms_console_title h1{
+.ms_section_title h1{
     font-size: 2.5rem;
     margin-bottom: 30px;
 }
-.ms_console_title h2{
+.ms_section_title h2{
     font-size: 2.5rem;
     margin-bottom: 30px;
 }
-.ms_console_title h4{
+.ms_section_title h4{
     color: #7a7a7a;
 }
 .ms_console_info{
@@ -239,8 +244,8 @@ main{
     margin-bottom: 2rem;
 }
 
-/* Ps Plus */
-#ps-plus-info-banner{
+/* Ps Two Cols */
+.ps-two-columns-banner{
     height: 100%;
 
     display: flex;
@@ -248,8 +253,16 @@ main{
     justify-content: center;
     align-items: flex-start;
 }
-#ps-plus-logo-banner{
+.ps-two-columns-logo{
     width: 50%;
 
     margin-bottom: 30px;
+}
+
+/* PS Store */
+.ps-store-products{
+    margin: 3rem auto;
+}
+.ps-store-single-product{
+    margin-bottom: 1rem;
 }
