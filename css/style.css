@@ -232,7 +232,6 @@ main{
     margin-bottom: 30px;
 }
 .ms_product{
-    padding: 30px;
     opacity: 0.5;
 
     border-bottom: 2px solid transparent;
@@ -244,7 +243,6 @@ main{
 }
 .ms_product:hover{
     cursor: pointer;
-    padding: 30px;
     opacity: 1;
 
     border-bottom: 2px solid #117bd1;
@@ -364,6 +362,9 @@ footer a{
     }
     .social-container{
         width: 90%;
+    }
+    .ms_product{
+        padding: 30px;
     }
 }
 @media screen and (min-width: 992px ) {
