@@ -131,6 +131,9 @@ nav .col.right .element-end{
     height: 30px;
     width: 30px;
 }
+#ps-nav-logo{
+    cursor: pointer;
+}
 
 /* Main */
 main{
