@@ -346,6 +346,9 @@ footer a{
     text-decoration: none;
     color: inherit;
 }
+footer a:hover{
+    color: black;
+}
 
 
 
