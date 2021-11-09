@@ -20,6 +20,8 @@ ul li a{
 }
 ul li i{
     padding: 3px;
+
+    cursor: pointer;
 }
 
 /* Backgrounds */
@@ -123,6 +125,11 @@ nav .col.right .element-end{
 .burger-menu i:hover{
     cursor: pointer;
     color: #117bd1;
+}
+.ms_navlens{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
 }
 
 /* Main */
