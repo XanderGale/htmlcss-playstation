@@ -39,6 +39,9 @@ ul li i{
 }
 
 /* Buttons */
+.btn.ms_btnrad{
+    border-radius: 30px;
+}
 .red{
     background-color: red;
     color: white;
@@ -287,10 +290,6 @@ main{
 
     margin-bottom: 30px;
 }
-.ps-two-columns-banner a{
-    text-decoration: none;
-    color: inherit;
-}
 
 /* PS Store */
 .ps-store-products{
@@ -343,9 +342,12 @@ footer ul{
     align-items: flex-start;
 }
 footer ul li{
-    margin: 10px 0;
+    margin: 5px 0;
 }
-
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
